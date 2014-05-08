@@ -17,6 +17,7 @@
   "scripts": {
     "test": "tap -d -t 10 ./test"
   },
+  "main": "./index.js",
   "dependencies": {
     "unzip": "*",
     "async": "*",
