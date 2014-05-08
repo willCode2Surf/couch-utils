@@ -1,6 +1,6 @@
 {
   "name": "couch-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "couchdb utilities built on top of high performance JS features",
   "keywords": [
     "couchdb",
@@ -15,7 +15,8 @@
   },
   "homepage": "https://github.com/willCode2Surf/couch-utils",
   "scripts": {
-    "test": "tap -d -t 10 ./test"
+    "test": "tap -d -t 10 ./test",
+    "release": "grunt release"
   },
   "main": "./index.js",
   "dependencies": {
@@ -25,7 +26,14 @@
     "fstream": "*"
   },
   "devDependencies": {
-    "tap": "*"
+    "tap": "*",
+    "grunt": "~0.4.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-release": "~0.7.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
   },
   "engines": {
     "node": ">= 0.8.0"
