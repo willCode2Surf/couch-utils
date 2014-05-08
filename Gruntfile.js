@@ -15,7 +15,7 @@ module.exports = function(grunt) {
         github: {
           repo: 'willcode2surf/couch-utils',
           usernameVar: 'willcode2surf',
-          passwordVar: 'faster77'
+          passwordVar: '*'
         }
       }
     }
