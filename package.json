@@ -1,0 +1,32 @@
+{
+  "name": "couch-utils",
+  "version": "0.0.2",
+  "description": "couchdb utilities built on top of high performance JS features",
+  "keywords": [
+    "couchdb",
+    "couch",
+    "couch utils",
+    "couch tools"
+  ],
+  "author": "Dustin Brown <willcode2surf@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willCode2Surf/couch-utils.git"
+  },
+  "homepage": "https://github.com/willCode2Surf/couch-utils",
+  "scripts": {
+    "test": "tap -d -t 10 ./test"
+  },
+  "dependencies": {
+    "unzip": "*",
+    "async": "*",
+    "request": "*",
+    "fstream": "*",
+  },
+  "devDependencies": {
+    "tap": "*"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
