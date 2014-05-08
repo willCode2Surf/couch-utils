@@ -15,8 +15,7 @@
   },
   "homepage": "https://github.com/willCode2Surf/couch-utils",
   "scripts": {
-    "test": "tap -d -t 10 ./test",
-    "rls": "grunt release"
+    "test": "tap ./test/simple.js"
   },
   "main": "./index.js",
   "dependencies": {
