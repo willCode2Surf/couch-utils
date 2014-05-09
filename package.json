@@ -1,6 +1,6 @@
 {
   "name": "couch-utils",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "couchdb utilities built on top of high performance JS features",
   "keywords": [
     "couchdb",
