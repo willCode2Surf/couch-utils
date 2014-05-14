@@ -22,7 +22,8 @@
     "unzip": "*",
     "async": "*",
     "request": "*",
-    "fstream": "*"
+    "fstream": "*",
+	"cradle": "*"
   },
   "devDependencies": {
     "tap": "*",
