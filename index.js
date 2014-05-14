@@ -1,8 +1,8 @@
 "use strict"
-var path = require('path')
-var cp = require('child_process')
-var util = require('./lib/util')
-var EE = require('events').EventEmitter
+var path = require('path');
+var cp = require('child_process');
+var util = require('./lib/util');
+var EE = require('events').EventEmitter;
 
 module.exports = CouchUtils
 
@@ -42,6 +42,11 @@ CouchUtils.prototype.addAttachmentWithRevision = function(id, revision ,filepath
 CouchUtils.prototype.baseDirectory = function (str) {
   this._basedir = str
   return this
+}
+
+
+CouchUtils.prototype.genTmpPath = function () {
+  return path.join(this._basedir, 'TMP_'+( util.guid()).toString(14));
 }
 
 function logCommand (args) {
